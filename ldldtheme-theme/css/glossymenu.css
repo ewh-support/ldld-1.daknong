@@ -1,0 +1,60 @@
+.glossymenu {
+  padding: 0;
+  width: 174px;
+  margin: 0 auto;
+  background: #fff; }
+
+.glossymenu > ul > li > a {
+  background: #a9deef;
+  color: #333;
+  display: block;
+  position: relative;
+  /*To help in the anchoring of the ".statusicon" icon image*/
+  width: auto;
+  padding: 3px 5px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 26px;
+  margin-bottom: 1px; }
+
+.glossymenu > ul > li > a:visited, .glossymenu > ul > li > a:active {
+  color: #333; }
+
+.glossymenu ul > li > a .statusicon {
+  /*CSS for icon image that gets dynamically added to headers*/
+  position: absolute;
+  padding-top: 7px;
+  right: 5px;
+  border: none;
+  width: 11px; }
+
+.glossymenu a.menuitem:hover {
+  /*background-image: url(../images/glossyback2.gif);*/ }
+
+.glossymenu .has_sub ul {
+  /*UL of each sub menu*/
+  background: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border-bottom: 0; }
+
+.glossymenu .has_sub ul li {
+  border-bottom: 1px solid #e3e3e3;
+  padding-left: 10px; }
+
+.glossymenu .has_sub ul li a {
+  display: block;
+  color: black;
+  font-size: 13px;
+  color: #01a5e1;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 6px 12px;
+  background: url(../images/cumgar_portal/icon1.png) no-repeat left 13px; }
+
+.glossymenu .has_sub ul li a:hover {
+  color: #d20707; }
+
