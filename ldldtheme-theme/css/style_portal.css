@@ -687,9 +687,13 @@ position: relative;
 	padding left: 5px;
 }
 .tinmoi_capnhat h2 {
-    color: red;
+    color: white;
     font-size: 14px;
     font-weight: bold;
+    height: 30px;
+    line-height: 30px;
+    background: #02448e;
+    padding-left: 10px;
 }
 .nano {
     height: /*265*/315px!important;
